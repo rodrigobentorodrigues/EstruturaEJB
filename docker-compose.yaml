@@ -1,0 +1,9 @@
+version: '2.1'
+services:
+  web:
+    container_name: web
+    build: .
+    image: rodrigo/web
+    ports:
+      - "8081:8080"
+      - "3700:3700"
